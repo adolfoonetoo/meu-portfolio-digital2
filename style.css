@@ -1,0 +1,62 @@
+body {
+  background: #0f172a;
+  color: #f1f5f9;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 350px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+a.linkedin {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #0a66c2;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #0284c7;
+}
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* deixa a imagem redonda */
+  object-fit: cover;  /* garante que não deforme */
+  border: 3px solid #38bdf8;
+}
